@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Sumofnumbers{
+public static void main(String[] args){
+Scanner scan=new Scanner(System.in);
+int N=scan.nextInt();
+int x=1;
+int a=0;
+while(x<=N){
+	a=x+a;
+	x++;
+}
+System.out.println(a);
+}
+}
