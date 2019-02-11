@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Character{
+public static void main(String[] args){
+Scanner scan=new Scanner(System.in);
+char ch=scan.next().charAt(0);
+if((ch>96&&ch<123)||(ch>64&&ch<91))
+System.out.println("Alphabet");
+else
+System.out.println("no");
+}
+}
+
