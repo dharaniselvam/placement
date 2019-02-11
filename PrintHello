@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class PrintHello{
+public static void main(String[] args){
+Scanner scan=new Scanner(System.in);
+int N=scan.nextInt();
+int x=1;
+while(x<=N){
+	System.out.println("Hello");
+	x++;
+}
+}
+}
