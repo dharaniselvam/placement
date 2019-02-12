@@ -8,7 +8,7 @@ class Intervalodd{
 		
 		for(i=N;i<Q;i++){
 			if((i==1)&&(N==1))
-			  System.out.print(" ");
+			  System.out.print("");
 			
 		
 	    else if(i%2!=0)
