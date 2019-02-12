@@ -4,11 +4,14 @@ class Intervalodd{
 		Scanner scan=new Scanner(System.in);
 		int N=scan.nextInt();
 		int Q=scan.nextInt();
-		int i=2;
+		int i;
+		
 		for(i=N;i<Q;i++){
-		if(i==1)
-		i++;
-	    if(i%2!=0)
+			if((i==1)&&(N==1))
+			  System.out.print(" ");
+			
+		
+	    else if(i%2!=0)
 	    System.out.print(i+" ");
 			    
 		
