@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Intervalodd{
+	public static void main(String[] qwe){
+		Scanner scan=new Scanner(System.in);
+		int N=scan.nextInt();
+		int Q=scan.nextInt();
+		int i=2;
+		for(i=N;i<Q;i++){
+		if(i==1)
+		i++;
+	    if(i%2!=0)
+	    System.out.print(i+" ");
+			    
+		
+		}
+	}
+}
