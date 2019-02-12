@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Prime{
+	public static void main(String[] qwe){
+		Scanner scan=new Scanner(System.in);
+		int N=scan.nextInt();
+		int temp=0;
+		if((N==0)||(N==1))
+		System.out.println("no");
+		else{
+		
+		for( int i=2;i<=N/2;i++){
+			if(N%i==0){
+			temp=temp+1;
+			break;
+		}
+		}
+		if(temp==0)
+		System.out.println("yes");
+		else
+		System.out.println("no");
+	}
+	
+}
+}
