@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Powerofnumber{
+	public static void main(String[] qwe){
+		Scanner scan=new Scanner(System.in);
+		int N=scan.nextInt();
+		int k=scan.nextInt();
+		int a=1;
+		int x=1;
+		while(a<=k){
+			x=x*N;
+		   a++;
+		}
+		System.out.println(x);
+	
+	}
+}
