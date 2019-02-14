@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Timeinhourminute{
+	public static void main(String[] qwe){
+		Scanner scan=new Scanner(System.in);
+		int N=scan.nextInt();
+		int hour=0,min=0;
+			hour=N/60;
+			min=N%60;
+			System.out.println(hour+" "+min);
+		}
+}
