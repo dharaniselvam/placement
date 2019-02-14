@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Arithmeticprogression{
+	public static void main(String[] qwe){
+	Scanner scan=new Scanner(System.in);
+	int n=scan.nextInt();
+	int a=scan.nextInt();
+	int d=scan.nextInt();
+	int x=0,sum=0;
+	for(int i=a;i<=n;i++){
+	sum=(a+(x*d))+sum;
+	x++;
+
+}
+	System.out.println(sum);
+}
+}
+
