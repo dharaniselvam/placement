@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Timedifference{
+	public static void main(String[] qwe){
+		Scanner scan=new Scanner(System.in);
+		int hour1=scan.nextInt();
+		int min1=scan.nextInt();
+		int hour2=scan.nextInt();
+		int min2=scan.nextInt();
+		int hour=0,min=0;
+		hour=hour1-hour2;
+		min=min1-min2;
+		if(hour<0)
+		hour=-hour;
+		if(min<0)
+		min=-min;
+		System.out.println(hour+" "+min);
+		}
+}
