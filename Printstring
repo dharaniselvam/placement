@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Printstring{
+public static void main(String[] qwe){
+Scanner scan=new Scanner(System.in);
+String S=scan.next();
+int K=scan.nextInt();
+int temp=0;
+for(int i=1;i<=K;i++)
+System.out.println(S);
+}
+}
