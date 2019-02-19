@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Average{
+public static void main(String[] args){
+Scanner scan=new Scanner(System.in);
+int N=scan.nextInt();
+int arr[]=new int[N];
+int sum=0,average=0;
+for(int i=0;i<N;i++)
+arr[i]=scan.nextInt();
+for(int i=0;i<N;i++){
+	sum=sum+arr[i];
+}
+average=sum/N;
+System.out.println(average);
+}
+}
