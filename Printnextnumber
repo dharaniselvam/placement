@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class Printnextnumber{
+public static void main(String[] args){
+Scanner scan=new Scanner(System.in);
+int N=scan.nextInt();
+int i=0;
+i=N+1;
+System.out.println(i);
+}
+}
