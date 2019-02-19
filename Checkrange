@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Checkrange{
+public static void main(String[] qwe){
+Scanner scan=new Scanner(System.in);
+int N=scan.nextInt();
+if((N>=0)&&(N<=10))
+System.out.println("yes");
+else
+System.out.println("no");
+}
+}
