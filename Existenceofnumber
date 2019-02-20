@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Existenceofnumber{
+public static void main(String[] qwe){
+Scanner scan=new Scanner(System.in);
+int N=scan.nextInt();
+int K=scan.nextInt();
+int i=0,count=0;
+int arr[]=new int[N];
+for(i=0;i<N;i++)
+arr[i]=scan.nextInt();
+for(i=0;i<N;i++){
+	if(arr[i]==K){
+	System.out.println("yes");
+	break;
+	}
+    else{
+    System.out.println("no");  
+    break;
+}
+}
+}
+}
