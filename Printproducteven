@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Printproducteven{
+public static void main(String[] qwe){
+Scanner scan=new Scanner(System.in);
+int N=scan.nextInt();
+int M=scan.nextInt();
+int c=0;
+c=M*N;
+if(c%2==0)
+System.out.println("even");
+else
+System.out.println("even");
+}
+}
