@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Printnearesteven{
+public static void main(String[] qwe){
+Scanner scan=new Scanner(System.in);
+int N=scan.nextInt();
+if(N%2==0)
+System.out.print(N);
+else
+System.out.print(N-1);
+}
+}
+
