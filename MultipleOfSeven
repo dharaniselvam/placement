@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class MultipleOfSeven{
+public static void main(String[] qwe){
+Scanner scan=new Scanner(System.in);
+int N=scan.nextInt();
+if(N%7==0)
+System.out.println("yes");
+else
+System.out.println("no");
+}
+}
